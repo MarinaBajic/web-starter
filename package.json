@@ -1,0 +1,33 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Starter project for Vega IT Front-end internship",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "Marina Bajic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.29",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "stylelint": "^15.10.3",
+    "stylelint-webpack-plugin": "^4.1.1",
+    "webfonts-generator": "^0.4.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "ttf2woff2": "^5.0.0"
+  }
+}

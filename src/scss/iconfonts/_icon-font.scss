@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "iconfont";
+	src: url("../assets/fonts/iconfont.eot?0fe1a7d687bbe32d39a571b3429d6c7d?#iefix") format("embedded-opentype"),
+url("../assets/fonts/iconfont.woff2?0fe1a7d687bbe32d39a571b3429d6c7d") format("woff2"),
+url("../assets/fonts/iconfont.woff?0fe1a7d687bbe32d39a571b3429d6c7d") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: iconfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-arrow-down:before {
+	content: "\f101";
+}
+.icon-dog-park:before {
+	content: "\f102";
+}
